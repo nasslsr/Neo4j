@@ -54,4 +54,4 @@ with driver.session() as session:
                               convert_to_int(row.iloc[5]),  # Destination_airport_ID
                               row.iloc[6],  # Codeshare
                               convert_to_int(row.iloc[7]),  # Stops
-                              ro
+                              row.iloc[8])  # Equipment
